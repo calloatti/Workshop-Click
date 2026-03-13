@@ -1,0 +1,9 @@
+{
+  "Id": "Calloatti.WorkshopClick",
+  "Name": "Workshop Click",
+  "Version": "1.0.0",
+  "MinimumGameVersion": "1.0.0",
+  "Description": "Click a mod in the Mod menu to open its Steam Workshop page in the overlay.",
+  "RequiredMods": [{"Id": "Harmony", "MinVersion": "2.4.1"}],
+  "OptionalMods": []
+}
