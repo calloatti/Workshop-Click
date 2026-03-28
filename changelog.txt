@@ -1,0 +1,13 @@
+1.0.5
+Using simpleconfig
+1.0.4
+Switched to using ModDirectory.OriginPath
+1.0.3
+Added support for Mod Manager json files
+1.0.2
+Now works with maps
+1.0.1
+Uses cloud icon for clicking
+Config option to use default browser or Steam
+1.0.0
+Initial release

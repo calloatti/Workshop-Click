@@ -10,14 +10,11 @@ namespace Calloatti.WorkshopClick
 {
   public partial class WorkshopClickStarter : IModStarter
   {
-    public static SimpleIniConfig Config { get; private set; }
+    public static SimpleConfig Config { get; private set; }
 
     public void StartMod(IModEnvironment modEnvironment)
     {
-      Config = new SimpleIniConfig("WorkshopClick.txt");
-      Config.GetBool("OpenInDefaultBrowser", false);
-      Config.SetComment("OpenInDefaultBrowser", "Set to True to use your system browser. Set to False for Steam Overlay.");
-      Config.Save();
+      Config = new SimpleConfig(modEnvironment.ModPath);
 
       var harmony = new Harmony("com.calloatti.workshopclick");
       harmony.PatchAll();

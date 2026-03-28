@@ -81,8 +81,14 @@ namespace Calloatti.WorkshopClick
       {
         if (evt.button == 0)
         {
-          if (WorkshopClickStarter.Config.GetBool("OpenInDefaultBrowser", false)) Application.OpenURL(url);
-          else SteamFriends.ActivateGameOverlayToWebPage(url);
+          if (WorkshopClickStarter.Config.GetBool("OpenInDefaultBrowser"))
+          {
+            Application.OpenURL(url);
+          }
+          else
+          {
+            SteamFriends.ActivateGameOverlayToWebPage(url);
+          }
           evt.StopPropagation();
         }
       }, TrickleDown.TrickleDown);
