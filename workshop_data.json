@@ -1,10 +1,14 @@
 {
   "ItemId": "3682831129",
   "Name": "Workshop Click",
-  "Visibility": "Private",
+  "Visibility": "Public",
   "UpdateDescription": false,
-  "UpdateVisibility": false,
+  "UpdateVisibility": true,
   "UpdatePreview": true,
-  "UpdateTags": false,
-  "Tags": []
+  "UpdateTags": true,
+  "Tags": [
+    "Update 1.1",
+    "Update 1.0",
+    "Quality of life"
+  ]
 }
