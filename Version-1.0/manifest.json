@@ -1,7 +1,7 @@
 ﻿{
   "Id": "Calloatti.WorkshopClick",
   "Name": "Workshop Click",
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "MinimumGameVersion": "1.0.12.5",
   "Description": "Click a mod cloud icon in the Mod menu to open its Steam Workshop page.",
   "RequiredMods": [
