@@ -1,0 +1,17 @@
+Ever wanted to quickly check a mod's page to read the patch notes or remind yourself what it does? This mod makes it seamless.
+
+[h3]Features[/h3]
+Now also works with Workshop maps. Quick Access: Simply click the cloud icon of any downloaded Workshop mod in the in-game Mod Manager. Steam Overlay Integration: Instantly opens that mod's Steam Workshop page directly in the Steam Overlay. Option to open links in the default browser instead of the Steam overlay. Supports Mod Manager, local mods with a mod_manager_manifest.json file will open Mod.io mod page. The click action is strictly tied to the mod's cloud/folder icon, so you can still easily toggle checkboxes and change load priorities without accidentally opening the overlay.
+
+[h3]Settings:[/h3]
+Settings - Mod Settings (settings are saved in \PlayerData)
+
+[hr][/hr]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3682179025]Mods on Steam[/url]
+
+[url=https://mod.io/u/calloatti/?_sort=name]Mods on mod-dot-io[/url]
+
+[url=https://github.com/search?q=owner%3Acalloatti+sort%3Aname-asc+%22Timberborn+Mod%22&type=repositories]Mods on Github[/url]
+
+[url=https://github.com/calloatti/ModZips]Mod zip files[/url]
+

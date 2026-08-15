@@ -1,0 +1,1 @@
+Click a mod cloud icon in the Mod menu to open its Steam Workshop page.
