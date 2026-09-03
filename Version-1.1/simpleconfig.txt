@@ -1,0 +1,10 @@
+ConfigFileName = "WorkshopClick.txt"
+
+Key = "OpenInDefaultBrowser"
+Type = "bool"
+DefaultValue = false
+Label = "Open in default Browser"
+Tooltip = "Set to True to use your system browser. Set to False for Steam Overlay"
+ControlType = "Toggle"
+RequiresRestart = false
+RequiresReload = false
